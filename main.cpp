@@ -6,7 +6,7 @@ int main() {
     cout<<"Inserire numero:"<<endl;
     cin>> n;
         cout<<"1"<<endl;
-            for (int i = 1; i < n; i++) {
+            for (int i = 1; i>0; i++) {
                 c = a + b;
                 if(c<=n) {
                     cout << c << endl;
